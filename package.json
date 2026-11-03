@@ -1,0 +1,10 @@
+{
+  "name": "procurepilot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sandbox purchasing agent for small businesses by Cachetronaut",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "test": "node --test", "check": "node --check server.mjs && node --check public/app.js && node --check test/workflow.test.mjs" }
+}
